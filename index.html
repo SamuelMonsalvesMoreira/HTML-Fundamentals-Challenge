@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página criada para praticar as principais tags HTML do primeiro módulo.">
+    <title>Fundamentos do HTML</title>
+</head>
+<body>
+    <header id="inicio">
+        <h1>Fundamentos do HTML</h1>
+        <p>Uma página criada somente com <strong>HTML</strong> para praticar as principais tags aprendidas durante o curso.</p>
+
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="#historia">História dos computadores</a></li>
+                <li><a href="#clientes-servidores">Clientes e servidores</a></li>
+                <li><a href="#html">O que é HTML?</a></li>
+                <li><a href="#tags">Tags importantes</a></li>
+                <li><a href="#referencias">Referências</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="historia">
+            <h2>História dos computadores</h2>
+
+            <p>Os computadores passaram por várias gerações até chegarem aos dispositivos que usamos atualmente. As primeiras máquinas ocupavam salas inteiras e realizavam cálculos muito mais simples do que um celular moderno.</p>
+
+            <p>Com o avanço da tecnologia, os equipamentos ficaram <mark>menores, mais rápidos e mais acessíveis</mark>. Essa evolução tornou possível o surgimento da internet e, depois, da <abbr title="World Wide Web">Web</abbr>.</p>
+
+            <blockquote>
+                A Web conecta documentos por meio de links, permitindo que pessoas naveguem entre diferentes conteúdos.
+            </blockquote>
+
+            <p><small>A internet e a Web não são a mesma coisa: a internet é a infraestrutura de rede, enquanto a Web é um dos serviços que funciona sobre ela.</small></p>
+        </section>
+
+        <hr>
+
+        <section id="clientes-servidores">
+            <h2>Como funcionam clientes e servidores?</h2>
+
+            <p>Quando acessamos um site, o navegador atua como <i>cliente</i>. Ele envia uma solicitação para um computador chamado <i>servidor</i>, que responde com os arquivos necessários para mostrar a página.</p>
+
+            <h3>Etapas de uma requisição</h3>
+
+            <ol>
+                <li>A pessoa digita um endereço no navegador.</li>
+                <li>O navegador solicita a página ao servidor.</li>
+                <li>O servidor localiza os arquivos solicitados.</li>
+                <li>O navegador recebe e interpreta o conteúdo.</li>
+            </ol>
+
+            <p>Esse processo costuma acontecer em poucos segundos. O navegador interpreta o HTML e apresenta sua estrutura na tela.</p>
+        </section>
+
+        <hr>
+
+        <section id="html">
+            <h2>O que é HTML?</h2>
+
+            <p><abbr title="HyperText Markup Language">HTML</abbr> significa <i>HyperText Markup Language</i>, ou Linguagem de Marcação de Hipertexto. Ele é usado para organizar o conteúdo de páginas da Web.</p>
+
+            <p>HTML é uma linguagem de <del>programação</del> <u>marcação</u>. Suas tags indicam o papel de cada conteúdo, como títulos, parágrafos, listas e links.</p>
+
+            <p>Uma fórmula também pode ser representada com HTML: a água é H<sub>2</sub>O e 10<sup>2</sup> é igual a 100.</p>
+
+            <h3>Estrutura básica</h3>
+
+            <p>Um documento HTML normalmente possui uma declaração de tipo, uma tag raiz, uma área de configurações e uma área para o conteúdo visível.</p>
+
+            <ul>
+                <li><strong>&lt;html&gt;</strong>: envolve todo o documento.</li>
+                <li><strong>&lt;head&gt;</strong>: guarda informações sobre a página.</li>
+                <li><strong>&lt;body&gt;</strong>: contém tudo o que aparece no navegador.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="tags">
+            <h2>Tags importantes do HTML</h2>
+
+            <p>As tags ajudam a criar uma hierarquia clara. O título principal usa <strong>&lt;h1&gt;</strong>, enquanto os títulos seguintes podem usar níveis de <strong>&lt;h2&gt;</strong> até <strong>&lt;h6&gt;</strong>.</p>
+
+            <h3>Exemplo de título de nível 3</h3>
+            <h4>Exemplo de título de nível 4</h4>
+            <h5>Exemplo de título de nível 5</h5>
+            <h6>Exemplo de título de nível 6</h6>
+
+            <p>Também podemos usar <mark>&lt;mark&gt; para destacar</mark>, <i>&lt;i&gt; para diferenciar um termo</i>, <u>&lt;u&gt; para sublinhar</u> e <strong>&lt;strong&gt; para indicar importância</strong>.</p>
+
+            <h3>Tags pesquisadas para o desafio</h3>
+
+            <ul>
+                <li><strong>&lt;abbr&gt;</strong>: apresenta o significado de uma abreviação, como <abbr title="Digital Innovation One">DIO</abbr>.</li>
+                <li><strong>&lt;del&gt;</strong>: mostra que um conteúdo foi removido ou corrigido, como em <del>texto antigo</del>.</li>
+                <li><strong>&lt;font&gt;</strong>: era usada para alterar a aparência do texto.</li>
+            </ul>
+
+            <p><font color="green" face="Arial" size="4">Este texto foi formatado com a tag &lt;font&gt;.</font></p>
+
+            <p><small>A tag &lt;font&gt; é obsoleta no HTML atual. Ela foi usada aqui somente porque faz parte da proposta do desafio.</small></p>
+        </section>
+
+        <hr>
+
+        <section id="referencias">
+            <h2>Referências</h2>
+
+            <p>Os links abaixo ajudam a continuar os estudos:</p>
+
+            <ul>
+                <li><a href="https://github.com/digitalinnovationone/trilha-html-modulo-1" target="_blank" rel="noopener noreferrer">Repositório da trilha HTML no GitHub</a></li>
+                <li><a href="https://web.dio.me/lives/primeiros-passos-com-git-e-github" target="_blank" rel="noopener noreferrer">Aula de primeiros passos com Git e GitHub</a></li>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer">Documentação de HTML da MDN</a></li>
+            </ul>
+
+            <p><a href="#inicio">Voltar ao início</a></p>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p><small>Projeto desenvolvido para praticar os fundamentos do HTML.</small></p>
+    </footer>
+</body>
+</html>
+
